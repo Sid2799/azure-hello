@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @SpringBootApplication
 public class Azurehello1Application {
 	
-	@GetMapping("/message")
+	@GetMapping("/M")
 	public String message() {
 		return "hello, siddhant";
 	}
